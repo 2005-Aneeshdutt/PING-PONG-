@@ -32,9 +32,7 @@ Includes paddle-ball collision fixes, a game over screen, replay options, and so
 ping-pong/
 │
 ├── main.py # Entry point
-
 ├── game/
-
 │ ├── ball.py # Ball logic + collision
 │ └── paddle.py # Paddle logic (player + AI)
 ├── sounds/
