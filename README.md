@@ -29,21 +29,23 @@ Includes paddle-ball collision fixes, a game over screen, replay options, and so
 
 ## 📂 Project Structure
 
-ping-pong/
+PING-PONG-/
 │
-├── main.py # Entry point
-├── game/
-│ ├── ball.py # Ball logic + collision
-│ └── paddle.py # Paddle logic (player + AI)
-├── sounds/
-│ ├── paddle.wav # Paddle hit sound
-│ ├── wall.wav # Wall bounce sound
-│ └── score.wav # Scoring sound
-├── requirements.txt # Dependencies
-└── README.md
+├── main.py                  # Entry point (game loop, scoring, replay menu)
+│
+├── game/                    # Game logic modules
+│   ├── ball.py              # Ball class (movement, collision, angled bounce, sounds)
+│   └── paddle.py            # Paddle class (player + AI movement)
+│
+├── sounds/                  # Sound effects
+│   ├── paddle.wav           # Sound when ball hits paddle
+│   ├── wall.wav             # Sound when ball bounces on top/bottom wall
+│   └── score.wav            # Sound when a point is scored
+│
+├── requirements.txt         # Python dependencies (pygame, etc.)
+├── .gitignore               # Git ignore file (ignores .venv, __pycache__, etc.)
+└── README.md                # Project documentation
 
-yaml
-Copy code
 
 ---
 
