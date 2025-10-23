@@ -28,10 +28,13 @@ Includes paddle-ball collision fixes, a game over screen, replay options, and so
 ---
 
 ## 📂 Project Structure
+
 ping-pong/
 │
 ├── main.py # Entry point
+
 ├── game/
+
 │ ├── ball.py # Ball logic + collision
 │ └── paddle.py # Paddle logic (player + AI)
 ├── sounds/
@@ -51,6 +54,8 @@ Copy code
 ```bash
 git clone https://github.com/2005-Aneeshdutt/PING-PONG-.git
 cd PING-PONG-
+
+
 2. Create a virtual environment (recommended)
 bash
 Copy code
@@ -67,10 +72,14 @@ Mac/Linux:
 bash
 Copy code
 source .venv/bin/activate
+
+
 3. Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
+
+
 4. Run the game
 bash
 Copy code
